@@ -18,4 +18,5 @@ Different Element of JMeter – I have used Json Extractor for storing the token
 We can create separate JMX for each API and include in MasterTestPlan by using Include Controller
 
 #### Command to run through Terminal
-` $ jmeter -n-t Performance_test_script.jmx `
+To run the script in non GUI mode, user have to add sh before the same window non GUI command. Expecting your .jmx is in /bin folder.
+` $ sh jmeter -n-t Performance_test_script.jmx `
